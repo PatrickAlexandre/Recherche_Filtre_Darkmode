@@ -1,0 +1,186 @@
+[
+    {
+        "nom": "Parc Youri Gagarine",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Parc Genevoix",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Parc Léo Lagrange",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Parc de la Fête",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Parc des 4 chemins et sa noue paysagère",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Square Linné",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Square Raoul Dufy",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Place Alexandre Dumas",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Place Stendhal",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "PMG Ouest",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "PMG Est",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Place Darwin",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Grand V",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Parc des Indes + esplanade G. Brassens",
+        "type": "Parc/Jardin"
+    },
+    {
+        "nom": "Rond-point Grétry",
+        "type": "Giratoire"
+    },
+    {
+        "nom": "Rond-point Saint Exupéry / G. Clemenceau",
+        "type": "Giratoire"
+    },
+    {
+        "nom": "Rond-point de Cormeilles",
+        "type": "Giratoire"
+    },
+    {
+        "nom": "Rond-point Maupassant",
+        "type": "Giratoire"
+    },
+    {
+        "nom": "Rond-point Timbaud",
+        "type": "Giratoire"
+    },
+    {
+        "nom": "Rue Guy de Maupassant",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Gare routière Guy de Maupassant",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Angle rue P. Brossolette / rue Barian",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Zone industrielle",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Rue Florian + rue Lakanal",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Rue de Tunis",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Rue angle de Roger Hugues / rue Baudelaire",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Rue des acacias",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Angle rue Concordet / G. Clemenceau + angle rue Verlaine / G. Clemenceau",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Avenue Clemenceau / avenue Val Notre-Dame",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Rue des clos (borne à incendie)",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Rue Racmette - Guérin",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Route de Pontoise",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Rue du clos KFC (entretien externalisé)",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Angle rue Bourgeot / rue Paul Bert",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Avenue Roosevelt",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Rue F. Villon",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Quartier des 4 chemins (à planifier en hiver)",
+        "type": "Accompagnement de voirie"
+    },
+    {
+        "nom": "Théâtre F. Brel",
+        "type": "Équipement public"
+    },
+    {
+        "nom": "Mairie Annexe",
+        "type": "Équipement public"
+    },
+    {
+        "nom": "Bibliothèque Stendhal",
+        "type": "Équipement public"
+    },
+    {
+        "nom": "Marcel Cerdan",
+        "type": "Équipement public"
+    },
+    {
+        "nom": "Tennis Youri Gagarine",
+        "type": "Équipement public"
+    },
+    {
+        "nom": "Crèche Croque la vie (mardi matin)",
+        "type": "Crèche / Centre de loisirs / École"
+    },
+    {
+        "nom": "Halte-garderie Dansons la capucine (mardi matin)",
+        "type": "Crèche / Centre de loisirs / École"
+    },
+    {
+        "nom": "Centre J. Auriol (hors mercredi et congés scolaires)",
+        "type": "Crèche / Centre de loisirs / École"
+    },
+    {
+        "nom": "Centre Charles Peguy (mercredi)",
+        "type": "Crèche / Centre de loisirs / École"
+    }
+]

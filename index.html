@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaces Verts de Sartrouville</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Espaces Verts de Sartrouville</h1>
+
+        <!-- Dark Mode Toggle -->
+        <div class="form-group text-right">
+            <button id="dark-mode-toggle" class="btn btn-secondary">
+                <i class="fas fa-moon"></i> Mode sombre
+            </button>
+        </div>
+
+        <!-- Search bar -->
+        <div class="form-group">
+            <input type="text" id="search-input" class="form-control" placeholder="Rechercher un espace vert..." aria-label="Rechercher un espace vert">
+        </div>
+
+        <!-- Filter options -->
+        <div class="form-group">
+            <select id="filter-type" class="form-control" aria-label="Filtrer par type d'espace vert">
+                <option value="">Tous les types</option>
+                <option value="Parc/Jardin">Parc/Jardin</option>
+                <option value="Giratoire">Giratoire</option>
+                <option value="Accompagnement de voirie">Accompagnement de voirie</option>
+                <option value="Équipement public">Équipement public</option>
+                <option value="Crèche / Centre de loisirs / École">Crèche / Centre de loisirs / École</option>
+            </select>
+        </div>
+
+        <!-- Table -->
+        <div class="table-container">
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Adresse</th>
+                        <th scope="col">Superficie (m²)</th>
+                    </tr>
+                </thead>
+                <tbody id="spaces-table">
+                    <!-- Les données seront insérées ici -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="scripts.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

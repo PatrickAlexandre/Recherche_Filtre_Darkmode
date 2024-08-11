@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #2e2e2e;
+    color: #f8f9fa;
+}
+
+.table-container {
+    margin-top: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dark-mode .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.neomorphic {
+    background: #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    transition: all 0.3s ease;
+}
+
+.neomorphic:active {
+    box-shadow: inset 8px 8px 16px #bebebe, inset -8px -8px 16px #ffffff;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #343a40;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode input:focus, .dark-mode select:focus {
+    border-color: #f8f9fa;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.scrollytelling {
+    background: linear-gradient(to right, #f8f9fa, #ececec);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.scrollytelling h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.scrollytelling p {
+    font-size: 1.2em;
+    color: #666;
+}
